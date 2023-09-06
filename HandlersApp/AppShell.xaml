@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="HandlersApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:HandlersApp"
+    xmlns:views="clr-namespace:HandlersApp.Views"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="Draw Page"
+        ContentTemplate="{DataTemplate views:DrawPage}"
+        Route="DrawPage" />
+
+</Shell>
